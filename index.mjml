@@ -54,6 +54,9 @@
         .prod-copy-pad > table > tbody > tr > td {
           padding-top: 0 !important;
         }
+        .cta-btn {
+          width: 150px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -87,13 +90,15 @@
     <!-- ======> / Hero Copy <====== -->
     <!-- ======> Hero CTA <====== -->
     <mj-section background-color="#11111A">
-      <mj-column>
-        <mj-text align="center" padding="30px 0 45px">
-          <a href="#" style="display: inline-block; font-size: 18px; letter-spacing: 1px; color: #ffffff; border: 1px solid #ffffff; padding: 15px 0; width: 180px;">Get men's</a>
-          <span>&nbsp;</span>
-          <a href="#" style="display: inline-block; font-size: 18px; letter-spacing: 1px; color: #ffffff; border: 1px solid #ffffff; padding: 15px 0; width: 180px;">Get women's</a>
-        </mj-text>
-      </mj-column>
+      <mj-group>
+        <mj-column>
+          <mj-text align="center" padding="30px 0 45px">
+            <a class="cta-btn" href="#" style="display: inline-block; font-size: 18px; letter-spacing: 1px; color: #ffffff; border: 1px solid #ffffff; padding: 15px 0; width: 180px;">Get men's</a>
+            <span>&nbsp;</span>
+            <a class="cta-btn" href="#" style="display: inline-block; font-size: 18px; letter-spacing: 1px; color: #ffffff; border: 1px solid #ffffff; padding: 15px 0; width: 180px;">Get women's</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <!-- ======> / Hero CTA <====== -->
     <!-- ======> Horizontal Rule <====== -->

@@ -202,5 +202,27 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Horizontal Rule <====== -->
+    <!-- ======> Free Exchange & Returns <====== -->
+    <mj-section background-color="#11111A">
+      <mj-column padding="21px 0">
+        <mj-text align="center" font-size="14px" letter-spacing="1px" text-transform="uppercase" color="#ffffff">
+          Free Exchange and Returns 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Free Exchange & Returns <====== -->
+    <!-- ======> Horizontal Rule <====== -->
+    <mj-section background-color="#11111A">
+      <mj-column padding="0 21px">
+        <mj-text>
+          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+            <tr>
+              <td style="border-top: 1px solid #ffffff;"></td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Horizontal Rule <====== -->
   </mj-body>
 </mjml>

@@ -156,5 +156,20 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Horizontal Rule <====== -->
+    <!-- ======> Experience Ultra Comfort <====== -->
+    <mj-section background-color="#11111A">
+      <mj-column padding="45px 21px" vertical-align="middle">
+        <mj-image css-class="prod-img" src="https://i.ibb.co/b6MBM2z/cloud-ultra-3.png" alt="Cloud Ultra" />
+      </mj-column>
+      <mj-column padding="45px 21px" vertical-align="middle">
+        <mj-text align="center" font-size="24px" letter-spacing=".3px" color="#ffffff">
+          Experience ultra comfort
+        </mj-text>
+        <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff" padding-top="21px">
+          Two layers of CloudTec® & Helion™ superfoam work together to give next-level cushioning to your every step, and long-term cushioning to your route. 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Experience Ultra Comfort <====== -->
   </mj-body>
 </mjml>

@@ -45,6 +45,15 @@
         .prod-img > table > tbody > tr > td {
           width: 100% !important;
         }
+        .prod-img-pad > table > tbody > tr > td {
+          padding-bottom: 0 !important;
+        }
+        .prod-img-pad.tame {
+          padding-bottom: 15px !important;
+        }
+        .prod-copy-pad > table > tbody > tr > td {
+          padding-top: 0 !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -102,7 +111,7 @@
     <!-- ======> / Horizontal Rule <====== -->
     <!-- ======> Tame Every Trail <====== -->
     <mj-section background-color="#11111A">
-      <mj-column padding="45px 21px" vertical-align="middle">
+      <mj-column css-class="prod-img-pad tame" padding="45px 21px" vertical-align="middle">
         <mj-image css-class="prod-img" src="https://i.ibb.co/DbP3sYg/cloud-ultra-1.png" alt="Cloud Ultra" />
       </mj-column>
       <mj-column padding="45px 21px" vertical-align="middle">
@@ -130,10 +139,10 @@
     <!-- ======> / Horizontal Rule <====== -->
     <!-- ======> Push Your Limits <====== -->
     <mj-section background-color="#11111A" direction="rtl">
-      <mj-column padding="45px 21px" vertical-align="middle">
+      <mj-column css-class="prod-img-pad" padding="45px 21px" vertical-align="middle">
         <mj-image css-class="prod-img" src="https://i.ibb.co/J3RSWZd/cloud-ultra-2.png" alt="Cloud Ultra" />
       </mj-column>
-      <mj-column padding="45px 21px" vertical-align="middle">
+      <mj-column css-class="prod-copy-pad" padding="45px 21px" vertical-align="middle">
         <mj-text align="center" font-size="24px" letter-spacing=".3px" color="#ffffff">
           Push your limits
         </mj-text>
@@ -158,10 +167,10 @@
     <!-- ======> / Horizontal Rule <====== -->
     <!-- ======> Experience Ultra Comfort <====== -->
     <mj-section background-color="#11111A">
-      <mj-column padding="45px 21px" vertical-align="middle">
+      <mj-column css-class="prod-img-pad" padding="45px 21px" vertical-align="middle">
         <mj-image css-class="prod-img" src="https://i.ibb.co/b6MBM2z/cloud-ultra-3.png" alt="Cloud Ultra" />
       </mj-column>
-      <mj-column padding="45px 21px" vertical-align="middle">
+      <mj-column css-class="prod-copy-pad" padding="45px 21px" vertical-align="middle">
         <mj-text align="center" font-size="24px" letter-spacing=".3px" color="#ffffff">
           Experience ultra comfort
         </mj-text>
@@ -171,5 +180,27 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Experience Ultra Comfort <====== -->
+    <!-- ======> Cloud Ultra CTA <====== -->
+    <mj-section background-color="#11111A">
+      <mj-column>
+        <mj-text align="center" padding="0 0 45px">
+          <a href="#" style="display: inline-block; font-size: 18px; letter-spacing: 1px; color: #ffffff; border: 1px solid #ffffff; padding: 15px 0; width: 210px;">Pick your color</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Cloud Ultra CTA <====== -->
+    <!-- ======> Horizontal Rule <====== -->
+    <mj-section background-color="#11111A">
+      <mj-column padding="0 21px">
+        <mj-text>
+          <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+            <tr>
+              <td style="border-top: 1px solid #ffffff;"></td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Horizontal Rule <====== -->
   </mj-body>
 </mjml>

@@ -83,5 +83,20 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Hero CTA <====== -->
+    <!-- ======> Tame Every Trail <====== -->
+    <mj-section background-color="#11111A">
+      <mj-column padding="10px 15px" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/DbP3sYg/cloud-ultra-1.png" alt="Cloud Ultra" />
+      </mj-column>
+      <mj-column padding="10px 15px" vertical-align="middle">
+        <mj-text align="center" font-size="24px" letter-spacing=".3px" color="#ffffff">
+          Tame every trail
+        </mj-text>
+        <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff" padding-top="21px">
+          Missiongrip™ provides next-generation traction engineered to master mixed terrain, keeping your feet steady and the adventure alive.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Tame Every Trail <====== -->
   </mj-body>
 </mjml>

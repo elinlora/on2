@@ -16,6 +16,7 @@
       <mj-section padding="0" />
       <mj-column padding="0" />
       <mj-image padding="0" />
+      <mj-button padding="0" />
 
     </mj-attributes>
 
@@ -40,8 +41,19 @@
       img {
         border: 0;
       }
+      .hero > table > tbody > tr > td {
+        background-image: url('https://i.ibb.co/Bs1GwqP/on-hero.gif') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        height: 675px !important;
+        cursor: pointer !important;
+      }
       /* ======> Mobile <====== */
       @media only screen and (max-width: 599.8px) {
+        .hero > table > tbody > tr > td {
+          height: 500px !important;
+        }
         .prod-img > table > tbody > tr > td {
           width: 100% !important;
         }
@@ -64,17 +76,17 @@
     <!-- ======> Header <====== -->
     <!-- <mj-include path="components/header.mjml" /> -->
     <mj-section background-color="#11111A">
-      <mj-column padding="15px 0">
+      <mj-column  css-class="hero" padding="21px 0">
         <mj-image href="#" src="https://i.ibb.co/xgxtGVP/on-logo-wht.png" alt="On" width="21px" />
       </mj-column>
     </mj-section>
     <!-- ======> / Header <====== -->
     <!-- ======> Hero <====== -->
-    <mj-section background-color="#11111A">
+    <!-- <mj-section background-color="#11111A">
       <mj-column>
         <mj-image href="#" src="https://i.ibb.co/Bs1GwqP/on-hero.gif" alt="Cloud Ultra" />
       </mj-column>
-    </mj-section>
+    </mj-section> -->
     <!-- ======> / Hero <====== -->
     <!-- ======> Hero Copy <====== -->
     <mj-section background-color="#11111A">
@@ -117,7 +129,7 @@
     <!-- ======> Tame Every Trail <====== -->
     <mj-section background-color="#11111A">
       <mj-column css-class="prod-img-pad tame" padding="45px 21px" vertical-align="middle">
-        <mj-image css-class="prod-img" src="https://i.ibb.co/DbP3sYg/cloud-ultra-1.png" alt="Cloud Ultra" />
+        <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/DbP3sYg/cloud-ultra-1.png" alt="Cloud Ultra" />
       </mj-column>
       <mj-column padding="45px 21px" vertical-align="middle">
         <mj-text align="center" font-size="24px" letter-spacing=".3px" color="#ffffff">
@@ -145,7 +157,7 @@
     <!-- ======> Push Your Limits <====== -->
     <mj-section background-color="#11111A" direction="rtl">
       <mj-column css-class="prod-img-pad" padding="45px 21px" vertical-align="middle">
-        <mj-image css-class="prod-img" src="https://i.ibb.co/J3RSWZd/cloud-ultra-2.png" alt="Cloud Ultra" />
+        <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/J3RSWZd/cloud-ultra-2.png" alt="Cloud Ultra" />
       </mj-column>
       <mj-column css-class="prod-copy-pad" padding="45px 21px" vertical-align="middle">
         <mj-text align="center" font-size="24px" letter-spacing=".3px" color="#ffffff">
@@ -173,7 +185,7 @@
     <!-- ======> Experience Ultra Comfort <====== -->
     <mj-section background-color="#11111A">
       <mj-column css-class="prod-img-pad" padding="45px 21px" vertical-align="middle">
-        <mj-image css-class="prod-img" src="https://i.ibb.co/b6MBM2z/cloud-ultra-3.png" alt="Cloud Ultra" />
+        <mj-image css-class="prod-img" href="#" src="https://i.ibb.co/b6MBM2z/cloud-ultra-3.png" alt="Cloud Ultra" />
       </mj-column>
       <mj-column css-class="prod-copy-pad" padding="45px 21px" vertical-align="middle">
         <mj-text align="center" font-size="24px" letter-spacing=".3px" color="#ffffff">
@@ -211,7 +223,7 @@
     <mj-section background-color="#11111A">
       <mj-column padding="21px 0">
         <mj-text align="center" font-size="14px" letter-spacing="1px" text-transform="uppercase" color="#ffffff">
-          Free Exchange and Returns 
+          <a href="#" style="color: #ffffff;">Free Exchange and Returns</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -232,7 +244,7 @@
     <!-- ======> Footer <====== -->
     <!-- <mj-include path="components/footer.mjml" /> -->
     <mj-section background-color="#11111A">
-      <mj-column padding="45px 0 30px">
+      <mj-column padding="45px 0">
         <mj-image href="#" src="https://i.ibb.co/XbTW9YT/on-logo-blk.png" alt="On" width="21px" />
         <mj-text align="center" padding-top="45px">
           <a href="#" style="padding: 0 7px;">

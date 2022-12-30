@@ -1,0 +1,9 @@
+<!-- <mj-section background-color="#11111A">
+  <mj-column  css-class="hero" padding="21px 0">
+    <mj-image href="#" src="https://i.ibb.co/xgxtGVP/on-logo-wht.png" alt="On" width="21px" />
+  </mj-column>
+</mj-section> -->
+
+<mj-hero css-class="hero" mode="fixed-height" height="675px" background-height="675px" background-width="600px" background-url="https://i.ibb.co/Bs1GwqP/on-hero.gif" background-color="#11111A">
+  <mj-image padding="21px 0" href="#" src="https://i.ibb.co/xgxtGVP/on-logo-wht.png" alt="On" width="21px" />
+</mj-hero>

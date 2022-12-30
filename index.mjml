@@ -41,18 +41,11 @@
       img {
         border: 0;
       }
-      .hero > table > tbody > tr > td {
-        background-image: url('https://i.ibb.co/Bs1GwqP/on-hero.gif') !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        height: 675px !important;
-        cursor: pointer !important;
-      }
       /* ======> Mobile <====== */
       @media only screen and (max-width: 599.8px) {
         .hero > table > tbody > tr > td {
-          height: 500px !important;
+          background-size: 100% !important;
+          height: 520px !important;
         }
         .prod-img > table > tbody > tr > td {
           width: 100% !important;
@@ -74,20 +67,8 @@
   </mj-head>
   <mj-body background-color="#f6f6f6">
     <!-- ======> Header <====== -->
-    <!-- <mj-include path="components/header.mjml" /> -->
-    <mj-section background-color="#11111A">
-      <mj-column  css-class="hero" padding="21px 0">
-        <mj-image href="#" src="https://i.ibb.co/xgxtGVP/on-logo-wht.png" alt="On" width="21px" />
-      </mj-column>
-    </mj-section>
+    <mj-include path="components/header.mjml" />
     <!-- ======> / Header <====== -->
-    <!-- ======> Hero <====== -->
-    <!-- <mj-section background-color="#11111A">
-      <mj-column>
-        <mj-image href="#" src="https://i.ibb.co/Bs1GwqP/on-hero.gif" alt="Cloud Ultra" />
-      </mj-column>
-    </mj-section> -->
-    <!-- ======> / Hero <====== -->
     <!-- ======> Hero Copy <====== -->
     <mj-section background-color="#11111A">
       <mj-column>
@@ -242,40 +223,7 @@
     </mj-section>
     <!-- ======> / Horizontal Rule <====== -->
     <!-- ======> Footer <====== -->
-    <!-- <mj-include path="components/footer.mjml" /> -->
-    <mj-section background-color="#11111A">
-      <mj-column padding="45px 0">
-        <mj-image href="#" src="https://i.ibb.co/XbTW9YT/on-logo-blk.png" alt="On" width="21px" />
-        <mj-text align="center" padding-top="45px">
-          <a href="#" style="padding: 0 7px;">
-            <img src="https://i.ibb.co/pRrm6Wt/facebook.png" alt="Facebook" style="width: 12px; vertical-align: middle;">
-          </a>
-          <a href="#" style="padding: 0 7px;">
-            <img src="https://i.ibb.co/pJgC5k1/instagram.png" alt="Instagram" style="width: 21px; vertical-align: middle;">
-          </a>
-          <a href="#" style="padding: 0 7px;">
-            <img src="https://i.ibb.co/cL7b0pG/strava.png" alt="Strava" style="width: 21px; vertical-align: middle;">
-          </a>
-          <a href="#" style="padding: 0 7px;">
-            <img src="https://i.ibb.co/tQZKVV1/youtube.png" alt="Youtube" style="width: 21px; vertical-align: middle;">
-          </a>
-        </mj-text>
-        <mj-text align="center" padding-top="30px">
-          <p>
-            <a href="#" style="font-size: 13px; text-transform: uppercase; line-height: 24px; letter-spacing: 1px; color: #ffffff;">View in Browser</a>
-          </p>
-          <p>
-            <a href="#" style="font-size: 13px; text-transform: uppercase; line-height: 24px; letter-spacing: 1px; color: #ffffff;">Manage Your Preferences</a>
-          </p>
-          <p>
-            <a href="#" style="font-size: 13px; text-transform: uppercase; line-height: 24px; letter-spacing: 1px; color: #ffffff;">Unsubscribe</a>
-          </p>
-        </mj-text>
-        <mj-text align="center" font-size="11px" color="#ffffff" padding-top="45px">
-          © 2022
-        </mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-include path="components/footer.mjml" />
     <!-- ======> / Footer <====== -->
   </mj-body>
 </mjml>

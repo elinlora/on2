@@ -1,0 +1,33 @@
+<mj-section background-color="#11111A">
+  <mj-column padding="45px 0">
+    <mj-image href="#" src="https://i.ibb.co/XbTW9YT/on-logo-blk.png" alt="On" width="21px" />
+    <mj-text align="center" padding-top="45px">
+      <a href="#" style="padding: 0 7px;">
+        <img src="https://i.ibb.co/pRrm6Wt/facebook.png" alt="Facebook" style="width: 12px; vertical-align: middle;">
+      </a>
+      <a href="#" style="padding: 0 7px;">
+        <img src="https://i.ibb.co/pJgC5k1/instagram.png" alt="Instagram" style="width: 21px; vertical-align: middle;">
+      </a>
+      <a href="#" style="padding: 0 7px;">
+        <img src="https://i.ibb.co/cL7b0pG/strava.png" alt="Strava" style="width: 21px; vertical-align: middle;">
+      </a>
+      <a href="#" style="padding: 0 7px;">
+        <img src="https://i.ibb.co/tQZKVV1/youtube.png" alt="Youtube" style="width: 21px; vertical-align: middle;">
+      </a>
+    </mj-text>
+    <mj-text align="center" padding-top="30px">
+      <p>
+        <a href="#" style="font-size: 13px; text-transform: uppercase; line-height: 24px; letter-spacing: 1px; color: #ffffff;">View in Browser</a>
+      </p>
+      <p>
+        <a href="#" style="font-size: 13px; text-transform: uppercase; line-height: 24px; letter-spacing: 1px; color: #ffffff;">Manage Your Preferences</a>
+      </p>
+      <p>
+        <a href="#" style="font-size: 13px; text-transform: uppercase; line-height: 24px; letter-spacing: 1px; color: #ffffff;">Unsubscribe</a>
+      </p>
+    </mj-text>
+    <mj-text align="center" font-size="11px" color="#ffffff" padding-top="45px">
+      © 2022
+    </mj-text>
+  </mj-column>
+</mj-section>
